@@ -1,0 +1,11 @@
+api=741c37ee930f42caa035c3bc64b1271a
+
+<Route path={'/entertainment'} element={<News pagesize={6} country='in' category='entertainent'' />} />
+<Route path={'/business'} element={<News pagesize={6} country='in' category='business'' />} />
+<Route path={'/general'} element={<News pagesize={6} country='in' category='general'' />} />
+<Route path={'/health'} element={<News pagesize={6} country='in' category='health'' />} />
+<Route path={'/science'} element={<News pagesize={6} country='in' category='science'' />} />
+<Route path={'/sports'} element={<News pagesize={6} country='in' category='sports'' />} />
+<Route path={'/technology'} element={<News pagesize={6} country='in' category='technology' />} />
+
+<Route path={'/'} element={<News pagesize={6} country='in' category='sports' />} />
